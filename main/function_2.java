@@ -1,4 +1,4 @@
-class entry_point {
+class Hamming {
     public static void main(String[] args) {
         System.out.println("planet_java, approach-to-sun_java");
         System.out.println("venus', '10 m km");

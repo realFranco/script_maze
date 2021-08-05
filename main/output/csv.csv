@@ -1,4 +1,4 @@
-
+name, email, slack_id, bio_start
 name_cpp, lastname_cpp, country_cpp
 Jhnon, Doe, Canada
 Jhane, Doe, Mexico
@@ -19,12 +19,7 @@ venus, 23 m km
 uranos, 23 m km
 neptune, 25 m km
 
-name_java, lastname_java, country_java
-Jhnon, Doe, Canada
-Jhane, Doe, Mexico
-Jack, Doe, Australia
-
-
+Anusuiya Bora,bora.anusuiya818@gmail.com,@AnusuiyaBora_08,Drug Development,@Bora_Anusuiya08,13
 planet_java, approach-to-sun_java
 venus', '10 m km
 earth', '11 m km
@@ -61,6 +56,26 @@ saturn, 22 m km
 venus, 23 m km
 uranos, 23 m km
 neptune, 25 m km
+
+name_octave, color_octave, type_octave, places_octave
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+planet_octave, approach-to-sun_octave
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m km
+
+name_octave, lastname_octave, country_octave
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
 
 name_py, approach-to-sun_py
 venus, 10 m km

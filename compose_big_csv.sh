@@ -1,8 +1,11 @@
 echo "Composing a Big CSV"
 echo ""
 
+# Anusuiya Bora,bora.anusuiya818@gmail.com,@AnusuiyaBora_08,Drug Development,@Bora_Anusuiya08,13
 mkdir main/output
-echo "" > main/output/csv.csv
+
+# Defining the csv header
+echo "name, email, slack_id, bio_start" > main/output/csv.csv
 
 # Fetch executables c++ scripts
 cpp_set=$(find -iname "*.cpp")
@@ -12,11 +15,12 @@ java_set=$(find -iname "*.java")
 
 # Fetch executables perl scripts
 perl_set=$(find -iname "*.pl")
-# perl_set=$(echo $perl_set | tr "\n" "\n") # trim
+
+# Fetch executables Octave scripts
+octave_set=$(find -iname "*.m")
 
 # Fetch executables python scripts
 python_set=$(find . -iname "*[^__].py")
-# python_set=$(echo $python_set | tr "\n" "\n") # trim
 
 # Fetch executables R scripts
 r_set=$(find . -iname "*.r")
@@ -25,7 +29,7 @@ r_set=$(find . -iname "*.r")
 ruby_set=$(find . -iname "*.rb")
 
 # Compose the whole set of scripts to be running
-script_container="$cpp_set \n $java_set \n $perl_set \n $python_set \n $r_set \n $ruby_set"
+script_container="$cpp_set \n $java_set \n $perl_set \n $octave_set \n $python_set \n $r_set \n $ruby_set"
 script_container=$(echo $script_container | tr "\n" "\n") # trim
 
 # echo "$script_container"
@@ -44,15 +48,15 @@ do
         *".java")
             echo -n "We are running an Java code"
             javac $script
-            mv main/entry_point.class entry_point.class
+            mv main/Hamming.class Hamming.class
             # Running the external class to the main
-            java entry_point >> main/output/csv.csv
+            java Hamming >> main/output/csv.csv
             echo ""
             ;;
 
         *".m")
             echo -n "We are running an Octave code"
-            octave --persist $script >> main/output/csv.csv
+            octave $script >> main/output/csv.csv
             echo ""
             ;;
 
@@ -87,7 +91,7 @@ do
 done
 
 echo "Removing temporary objects"
-rm entry_point.class compiled_object
+rm *.class compiled_object
 echo ""
 
 echo "End of the bash execution :)"
