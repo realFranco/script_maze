@@ -1,0 +1,112 @@
+
+name_cpp, lastname_cpp, country_cpp
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
+
+name_cpp, color_cpp, type_cpp, places_cpp
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+planet_cpp, approach-to-sun_cpp
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m k
+
+name_java, lastname_java, country_java
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
+
+
+planet_java, approach-to-sun_java
+venus', '10 m km
+earth', '11 m km
+mars', '11 m km
+jupiter', '20 m km
+saturn', '22 m km
+venus', '23 m km
+uranos', '23 m km
+neptune', '25 m km
+
+
+name_java, color_java, type_java, places_java
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+
+name_perl, color_perl, type_perl, places_perl
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+name_perl, lastname_perl, country_perl
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
+
+planet_perl, approach-to-sun_perl
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m k
+
+name_py, approach-to-sun_py
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m km
+
+name_py, color_py, type_py, places_py
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+key1_py, key2_py, key3_py, key4_py
+a, b, c, d
+a, b, c, d
+a, b, c, d
+a, b, c, d
+a, b, c, d
+a, b, c, d
+
+name_py, country_py, hobby_py
+Jhon Doe, Belgium, Ping Pong
+Jhane Doe, Italy, Dancing
+Jack Doe, UK, Soccer
+
+name_ruby, lastname_ruby, country_ruby
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
+
+name_ruby, color_ruby, type_ruby, places_ruby
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
+planet_ruby, approach-to-sun_ruby
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m k
+

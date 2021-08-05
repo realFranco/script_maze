@@ -12,7 +12,7 @@ The programming languages allowed for this test are teh following.
 - Perl x
 - Python x
 - R sudo apt install r-base-core
-- Ruby test - sudo apt install ruby-full https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+- Ruby x
 - Octave http://wiki.octave.org/Octave_for_GNU/Linux
 
 
