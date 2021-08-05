@@ -8,11 +8,11 @@ The target of this project is to use shell scripting and run all the executables
 The programming languages allowed for this test are teh following.
 
 - C++ x
-- Java sudo apt install default-jdk
+- Java x
 - Perl x
 - Python x
 - R sudo apt install r-base-core
-- Ruby sudo apt install ruby-full https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+- Ruby test - sudo apt install ruby-full https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
 - Octave http://wiki.octave.org/Octave_for_GNU/Linux
 
 

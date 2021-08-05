@@ -1,12 +1,11 @@
 echo "This will be the script container of the solutions"
 echo ""
 
-# Example of trim and echos
-# IN="bla@some.com;john@home.com"
-# mails=$(echo $IN | tr ";" "\n")
-
 # Fetch executables c++ scripts
-# cpp_set=$(find -iname "*.cpp")
+cpp_set=$(find -iname "*.cpp")
+
+# Fetch executables java scripts
+java_set=$(find -iname "*.java")
 
 # Fetch executables perl scripts
 perl_set=$(find -iname "*.pl")
@@ -17,7 +16,7 @@ python_set=$(find . -iname "*[^__].py")
 # python_set=$(echo $python_set | tr "\n" "\n") # trim
 
 # Compose the whole set of scripts to be running
-script_container="$perl_set \n $python_set"
+script_container="$cpp_set \n $java_set \n $perl_set \n $python_set"
 script_container=$(echo $script_container | tr "\n" "\n") # trim
 
 # echo "$script_container"
@@ -28,24 +27,29 @@ do
 
         *".cpp")
             echo -n "We are running a C++ code"
-            # g++ $x -o object
-            # ./object >> main/output/csv.csv
+            g++ $script -o compiled_object
+            ./compiled_object >> main/output/csv.csv
             echo ""
             ;;
 
         *".java")
             echo -n "We are running a Java code"
+            javac $script
+            java entry_point >> main/output/csv.csv
+            # Running the external class to the main
+            mv main/entry_point.class entry_point.class
             echo ""
             ;;
 
         *".pl")
             echo -n "We are running a Perl code"
+            perl $script >> main/output/csv.csv
             echo ""
             ;;
 
         *".py")
             echo -n "We are running a Python code"
-            # python3 $script >> main/output/csv.csv
+            python3 $script >> main/output/csv.csv
             echo ""
             ;;
 

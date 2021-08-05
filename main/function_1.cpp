@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main() {
-   // printf() displays the string inside quotation
-   printf("Hello, World #1!");
+   printf("name_cpp, lastname_cpp, country_cpp\n");
+   printf("Jhnon, Doe, Canada\n");
+   printf("Jhane, Doe, Mexico\n");
+   printf("Jack, Doe, Australia\n");
+   printf("\n");
+
    return 0;
 }

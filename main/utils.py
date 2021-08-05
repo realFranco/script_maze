@@ -35,7 +35,7 @@ class Utils():
                 ['saturn', '22 m km'],
                 ['venus', '23 m km'],
                 ['uranos', '23 m km'],
-                ['neptunee', '25 m km'],
+                ['neptune', '25 m km']
             ]
 
         else:
@@ -55,6 +55,10 @@ class Utils():
             out = out + line + '\n'
 
         # out = out[:-1] # Avoid the last blank line
+        # adding a post fix for the keys: key -> key_py
+        keys = keys.split(', ')
+        keys = [f'{row}_py' for row in keys]
+        keys = ', '.join(keys)
         out = keys + '\n' + out
 
         # print(f'[DEBUG] CSV output: {out}\n')
