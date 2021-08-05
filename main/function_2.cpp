@@ -9,7 +9,7 @@ int main() {
    printf("saturn, 22 m km\n");
    printf("venus, 23 m km\n");
    printf("uranos, 23 m km\n");
-   printf("neptune, 25 m k\n");
+   printf("neptune, 25 m km\n");
    printf("\n");
 
    return 0;

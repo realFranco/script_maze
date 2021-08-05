@@ -11,9 +11,9 @@ The programming languages allowed for this test are teh following.
 - Java x
 - Perl x
 - Python x
-- R sudo apt install r-base-core
+- R x
 - Ruby x
-- Octave http://wiki.octave.org/Octave_for_GNU/Linux
+- Octave sudo apt  install octave
 
 
 The solutions could be writed in the root of this project called: 

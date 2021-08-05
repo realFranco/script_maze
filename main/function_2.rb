@@ -7,7 +7,7 @@ def output_csv()
     puts "saturn, 22 m km\n"
     puts "venus, 23 m km\n"
     puts "uranos, 23 m km\n"
-    puts "neptune, 25 m k\n"
+    puts "neptune, 25 m km\n"
     puts "\n"
 end
 

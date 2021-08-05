@@ -9,5 +9,5 @@ print("jupiter, 20 m km\n");
 print("saturn, 22 m km\n");
 print("venus, 23 m km\n");
 print("uranos, 23 m km\n");
-print("neptune, 25 m k\n");
+print("neptune, 25 m km\n");
 print("\n");

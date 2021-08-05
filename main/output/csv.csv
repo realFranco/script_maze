@@ -17,7 +17,7 @@ jupiter, 20 m km
 saturn, 22 m km
 venus, 23 m km
 uranos, 23 m km
-neptune, 25 m k
+neptune, 25 m km
 
 name_java, lastname_java, country_java
 Jhnon, Doe, Canada
@@ -60,7 +60,7 @@ jupiter, 20 m km
 saturn, 22 m km
 venus, 23 m km
 uranos, 23 m km
-neptune, 25 m k
+neptune, 25 m km
 
 name_py, approach-to-sun_py
 venus, 10 m km
@@ -90,6 +90,26 @@ Jhon Doe, Belgium, Ping Pong
 Jhane Doe, Italy, Dancing
 Jack Doe, UK, Soccer
 
+name_r, lastname_r, country_r
+Jhnon, Doe, Canada
+Jhane, Doe, Mexico
+Jack, Doe, Australia
+
+planet_r, approach-to-sun_r
+venus, 10 m km
+earth, 11 m km
+mars, 11 m km
+jupiter, 20 m km
+saturn, 22 m km
+venus, 23 m km
+uranos, 23 m km
+neptune, 25 m km
+
+name_r, color_r, type_r, places_r
+cactus, green, dangerus, america
+watermeloon, light green, fruit, south america
+strawberry, red, fruit, worldwide
+
 name_ruby, lastname_ruby, country_ruby
 Jhnon, Doe, Canada
 Jhane, Doe, Mexico
@@ -108,5 +128,5 @@ jupiter, 20 m km
 saturn, 22 m km
 venus, 23 m km
 uranos, 23 m km
-neptune, 25 m k
+neptune, 25 m km
 
